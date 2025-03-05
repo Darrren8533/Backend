@@ -58,7 +58,7 @@ process.on('SIGINT', async () => {
 });
 
 app.get('/', (req, res) => {
-  res.json({ message: 'Server is running!' });
+  res.json({ message: '后端服务器运行正常' });
 });
 
 // User registration endpoint
